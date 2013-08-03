@@ -17,7 +17,7 @@ It has support for elastic bounce back, like `UIScrollView` does:
 
 ## Customization
 
-There are several properties that change the default behavior, especially interesting are `numberOfTapsRequired`, `minimumPressDuration` and `allowableMovement`. For more check out the (header)[BDDROneFingerZoomGestureRecognizer.h].
+There are several properties that change the default behavior, especially interesting are `numberOfTapsRequired`, `minimumPressDuration` and `allowableMovement`. For more info see the [header](BDDROneFingerZoomGestureRecognizer.h).
 
 ## Contact
 
