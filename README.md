@@ -4,10 +4,11 @@
 
 `UIGestureRecognizer` subclass to enable one-finger-zoom gestures.
 
-This concrete subclass of `UIGestureRecognizer` enables one-finger-zooming ([like in the Google Maps iOS app](http://littlebigdetails.com/post/51559128905/)).  
+This concrete subclass of `UIGestureRecognizer` enables one-finger-zooming ([like in the Google Maps iOS app](http://littlebigdetails.com/post/51559128905/)). It has support for elastic bouncing, like `UIScrollView` does:
+
+<img src="Demo.gif" alt="Demo" style="height: 400px;"/>
+
 If you're going to use this with `UIScrollView` make sure to check out [BDDRScrollViewAdditions](https://github.com/bddckr/BDDRScrollViewAdditions).
-It has support for elastic bounce back, like `UIScrollView` does:
-![Demo](Demo.gif)
 
 ## Installation
 
