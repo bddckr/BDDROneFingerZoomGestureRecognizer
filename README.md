@@ -12,9 +12,7 @@ If you're going to use this with `UIScrollView` make sure to check out [BDDRScro
 
 ## Installation
 
-    $ cd /path/to/top/of/your/project
-    $ git submodule add git://github.com/bddckr/BDDROneFingerZoomGestureRecognizer.git BDDROneFingerZoomGestureRecognizer
-    $ git submodule update --init --recursive
+Simply add the files in the `BDDROneFingerZoomGestureRecognizer.h` and `BDDROneFingerZoomGestureRecognizer.m` to your project or add `BDDROneFingerZoomGestureRecognizer` to your Podfile if you're using CocoaPods.
 
 ## Customization
 
