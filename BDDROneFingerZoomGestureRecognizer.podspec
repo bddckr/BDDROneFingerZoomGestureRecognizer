@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'BDDROneFingerZoomGestureRecognizer'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.summary       = 'UIGestureRecognizer subclass to enable one-finger-zoom gestures.'
   s.homepage      = 'https://github.com/bddckr/BDDROneFingerZoomGestureRecognizer'
   s.screenshots   = 'https://github.com/bddckr/BDDROneFingerZoomGestureRecognizer/raw/master/Demo.gif'
