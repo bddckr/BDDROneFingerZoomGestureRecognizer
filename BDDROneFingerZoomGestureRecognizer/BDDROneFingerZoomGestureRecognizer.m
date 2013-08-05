@@ -162,12 +162,18 @@
 		return [super canPreventGestureRecognizer:preventedGestureRecognizer];
 }
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
 - (BOOL)shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
 	if ([otherGestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]])
 		return YES;
-	else
-		return [super shouldBeRequiredToFailByGestureRecognizer:otherGestureRecognizer];
+	else {
+		if ([[self class] instancesRespondToSelector:_cmd])
+			return [super shouldBeRequiredToFailByGestureRecognizer:otherGestureRecognizer];
+		else
+			return NO;
+	}
 }
+#endif
 
 #pragma mark - Getters and Setters
 
