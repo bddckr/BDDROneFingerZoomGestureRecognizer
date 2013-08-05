@@ -16,7 +16,7 @@ Simply add the files in the `BDDROneFingerZoomGestureRecognizer.h` and `BDDROneF
 
 ## Customization
 
-There are several properties that change the default behavior, especially interesting are `numberOfTapsRequired`, `minimumPressDuration` and `allowableMovement`. For more info see the [header](BDDROneFingerZoomGestureRecognizer.h).
+There are several properties that change the default behavior, especially interesting are `numberOfTapsRequired`, `minimumPressDuration` and `allowableMovement`. For more info see the [header](BDDROneFingerZoomGestureRecognizer/BDDROneFingerZoomGestureRecognizer.h).
 
 ## Contact
 
